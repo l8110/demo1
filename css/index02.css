@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.obox{
+	width: auto;
+	background: url(../img/九宫格_03.jpg);
+}
+.list{
+	width: 320px;
+	background: url(../img/九宫格_02.jpg);
+	margin: 50px auto;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px 10px 10px;
+}
+.list li{
+	width: 100px;
+	height: 100px;
+	display: flex;
+	background: url(../img/九宫格_03.jpg);
+	margin-top: 10px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	box-sizing: border-box;
+}
+.list li:last-child{
+	height: 60px;
+	width: 100%;
+}
+.list .active{
+	color: red;
+	background: white;
+	border: solid 2px red;
+}
